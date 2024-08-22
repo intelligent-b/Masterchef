@@ -1,0 +1,78 @@
+.signup-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #signup {
+    text-decoration: none;
+    font-size: large;
+  }
+   #signup:hover{
+    text-decoration: underline;
+  } 
+  span.sig-term{
+    font-size: small;
+  }
+  #stc{
+    text-decoration: none;
+  }
+   #stc:hover{
+    text-decoration: underline; 
+  }
+  .sig-form-group {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .sig-form-group label {
+      /* display: block;   */
+    margin-bottom: 5px;
+    font-size: large;
+  }
+  
+  .sig-form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid;
+   
+  }
+
+    .inside-signin {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: large;
+    margin-bottom: 10px;
+  }
+  
+  .inside-signin:hover {
+    background-color: #ff4b3a;
+  }
+  .sig-form-group input:focus{
+    outline: 0;
+}
+.sig-form-group.error{
+    color: rgb(255, 8, 8);
+    font-size: 12px;
+
+}
+.sig-form-group.error label{
+  color: black;
+}
+
+.sig-form-group.error input{
+    border-color: rgb(247, 5, 5);
+    border-radius: 8px;
+}
+.error-text{
+  margin-top: 5px;
+}

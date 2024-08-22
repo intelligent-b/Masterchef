@@ -1,0 +1,156 @@
+
+.container {
+   width: 100%;
+   height: 15%;
+   margin-bottom: 5px solid black;
+   display: flex;
+   justify-content: space-between;
+   border-radius: 12px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.imge{
+    width: 10%;
+    height:25% ;
+}
+
+/* Image styling */
+.image {
+    width: 90%;
+    height:10% ;
+}
+
+.box{
+   margin-right: 30%;
+   width: 50%;
+   height: 15%;
+   display: flex;
+   margin-top: 3%;
+   
+}
+/* Input styling */
+.box .input {
+    width: 80%;
+    height: 30;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid rgb(102, 13, 247);
+    border-right-color: transparent;
+    border-right: none;
+    outline: none;
+}
+
+.search{
+    width: 15%;
+    height: 30;
+   border: 2px solid rgb(102, 13, 247);
+   border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   border-left: none;
+   color: beige;
+   background-color: rgb(102, 13, 247);
+   cursor: pointer;
+}
+
+.list{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Button styling */
+.button {
+    width: 15%;
+    height: 30;
+    border-radius: 5px;
+    color: beige;
+    background-color: rgb(102, 13, 247);
+    cursor: pointer;
+    border: 2px solid rgb(102, 13, 247);
+    margin-top: 9.5%;
+    margin-right: 15px;
+}
+
+
+/* List styling */
+.list .ul{
+   width:60%;
+   margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11.5%;
+    list-style: none;
+    cursor: pointer;
+    color: rgb(102, 13, 247);
+}
+.link{
+    text-decoration: none;
+    color:rgb(102, 13, 247);
+  }
+
+  .link:hover{
+    text-decoration: underline;
+    color:rgb(102, 13, 247)
+  }
+
+
+.rc-main{
+    width: 23%;
+    height: 70%;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ 
+.rc-image{
+    width: 100%; 
+     /* height: 60% ; 
+    border-radius: 10px;
+    cursor: pointer; */
+    height: 10em;
+    } 
+
+.image1{
+    width: 98%;
+    height: 100%;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.restaurant-details{
+    width: 100%;
+    height: 40%;
+    padding: 3px; 
+    text-wrap: wrap;
+}
+
+.restaurant-details > h2{
+    font: bold;
+    font-size: medium;
+}
+.restaurant-details > h1,h3,h4,h5 {
+    font-size: small;
+    font-weight: 400;
+    font-style: oblique;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.overallbd{
+    width: 100%; 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    border-radius: 10px;
+}
+
+.insidebd{
+     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 2%;
+    gap: 20px;
+}
+
+
+  
